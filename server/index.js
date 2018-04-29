@@ -35,7 +35,7 @@ app.use(flash());
 app.set('view engine','ejs');
 
 /* list of all routes
-.....................................*/
+..................................*/
 app.get('/admin',function(req,res){
   res.status(200);
   res.render('admin');
